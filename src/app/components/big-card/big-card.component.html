@@ -1,0 +1,19 @@
+<div class="container__big-card">
+  <div class="big-card__photo">
+    <a [routerLink]="['content', id]">
+      <img src="{{ photoCover }}"
+      alt=""
+      height="850px"
+      srcset=""
+      >
+    </a>
+  </div>
+
+  <div class="big-card__title">
+    <a [routerLink]="['content', id]">
+      <h1>{{ cardTitle }} <span>▽</span></h1>
+      <p>{{ cardDescription }}</p>
+    </a>
+  </div>
+
+</div>

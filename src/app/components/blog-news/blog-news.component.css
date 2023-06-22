@@ -1,0 +1,24 @@
+.container__blog-news{
+  display: flex;
+  color: white;
+
+  margin-bottom: 30px;
+  margin-top: 80px;
+
+  padding-left: 60px;
+
+  text-align: left;
+}
+
+.container__blog-news > h2{
+  font-weight: 900;
+
+}
+
+img {
+  width: 25px;
+  height: 40px;
+
+  margin-left: 10px;
+}
+

@@ -1,0 +1,38 @@
+@media screen and (max-width:1086px) {
+  .big-card__title > a > h1{
+    margin-left: 0;
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .big-card__title > a > p{
+    margin-left: 0;
+    text-align: left;
+  }
+
+}
+
+@media screen and (max-width:972px) {
+  .big-card__photo {
+    margin-top: 80px;
+  }
+
+}
+
+@media screen and (max-width:748px) {
+  .big-card__title > a > h1 {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .big-card__title > a > h1 {
+    font-size: 16px;
+  }
+
+  .big-card__title > a > p{
+    font-size: 12px;
+}
+
+}

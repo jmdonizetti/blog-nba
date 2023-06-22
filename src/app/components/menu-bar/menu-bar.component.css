@@ -1,0 +1,65 @@
+.gif{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  list-style: none;
+  padding: 10px;
+
+}
+
+.container__menu-bar{
+
+
+  position: absolute;
+  top: 0;
+
+  margin: 10px;
+  padding: 22px;
+}
+
+.container__menu-bar nav ul{
+  margin-top: 10px;
+  margin-left: 70px;
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.container__menu-bar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container__menu-bar nav ul li{
+  color: white;
+
+  margin-right: 30px;
+
+  font-size: 20px;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+}
+
+
+.container__menu-bar {
+  overflow: hidden;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: .2s ease;
+}
+
+nav ul li a:hover{
+  color: #f75d1c;
+
+  border-radius: 10px;
+
+  padding: 1px;
+}
+
+
+
